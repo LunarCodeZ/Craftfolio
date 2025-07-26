@@ -1,0 +1,53 @@
+body {
+  color: white;
+  background-color: rgb(7, 7, 29);
+}
+
+
+/* Device: My Phone */
+@media only screen and (min-width: 360px) {
+  body {
+    margin: 0;
+  }
+  .craftfolio-textbox {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(4, 181, 216);
+  }
+}
+
+/* --- MOBILE --- */
+/* Device: Mobile S */
+@media only screen and (min-width: 320px) {
+
+}
+/* Device: Mobile M */
+@media only screen and (min-width: 375px) {
+
+}
+/* Device: Mobile L */
+@media only screen and (min-width: 425px) {
+
+}
+
+/* --- TABLET --- */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* --- LAPTOP --- */
+/* Device: Laptop */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Device: Laptop L */
+@media only screen and (min-width: 1440px) {
+
+}
+
+
+/* --- 4K --- */
+@media only screen and (min-width: 2650px) {
+
+}
