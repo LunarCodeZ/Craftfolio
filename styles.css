@@ -3,7 +3,7 @@ body {
   background-color: rgb(7, 7, 29);
 }
 * {
-  /*border: 1px solid red;*/
+  /* border: 1px solid red;*/
 }
 
 
@@ -158,7 +158,7 @@ body {
   .skills-page {
     position: relative;
     width: 360px;
-    height: 900px;
+    height:  2200px;
     background-color: rgb(18, 18, 75);
     bottom: 1000px;
   }
@@ -173,6 +173,69 @@ body {
     flex-direction: column;
     position: relative;
   }
+  .skills-logo-placeholder > div {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    border-radius: 100%;
+    background-color: rgb(18, 18, 75);
+    border: 3px solid rgb(12, 145, 254);
+    z-index: 2;
+    margin-bottom: 100px;
+    bottom: 2080px;
+  }
+  .skills-card > div {
+    top: 40px;
+    width: 90vw;
+    height: 120px;
+    border: 3px solid rgb(12, 145, 254);
+    border-radius: 10%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    z-index: 1;
+  }
+  .skills-list > img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 15px;
+    bottom: 10490px;
+    margin-bottom: 133px;
+    z-index: 3;
+  }
+  .skills-title > h3 {
+    font-size: 23px;
+    margin-left: 85px;
+    bottom: 4150px;
+    position: relative;
+    margin-bottom: 149px;
+  }
+  .skills-line > div {
+    width: 68vw;
+    height: 3px;
+    position: relative;
+    background-color: rgb(4, 109, 189);
+    margin-left: 75px;
+    margin-bottom: 172px;
+    bottom: 6220px;
+  }
+  .skills-explanation > p {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    bottom: 8300px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 133px;
+  }
+  /* Skills logo */
+  #skills1 {
+    width: 40px;
+    height: 60px;
+  }
+ 
 }
   
 
