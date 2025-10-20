@@ -8,12 +8,12 @@ body {
 
 
 /* Device: My Phone */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 425px) {
   body {
     margin: 0;
   }
   .craftfolio-textbox {
-    width: 360px;
+    width: 95vw;
     height: 150px;
     background-color: rgb(3, 139, 167);
   }
@@ -55,7 +55,7 @@ body {
   .about2 {
     position: relative;
     top: 100px;
-    width: 260px;
+    width: 70vw;
     height: 340px;
   }
   .about-box > div {
@@ -97,6 +97,7 @@ body {
   }
   .stats > .stats-logo {
     margin-bottom: 25px;
+    margin-left: 2vw;
     width: 50px;
     height: 50px;
   }
@@ -105,13 +106,13 @@ body {
     height: 60px;
     position: relative;
     bottom: 10px;
-    left: -4px;
+    left: 1vw;
   }
   .stats-text {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 105px;
+    margin-left: 110px;
     bottom: 215px;
   }
   .stats-text > p {
@@ -122,12 +123,12 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 105px;
+    margin-left: 28vw;
     bottom: 470px;
   }
   .stats-bar > div {
     height: 10px;
-    width: 185px;
+    width: 50vw;
     border-radius: 5%;
     background-color: rgb(40, 129, 230);
     margin-bottom: 60px;
@@ -157,8 +158,8 @@ body {
   }
   .skills-page {
     position: relative;
-    width: 360px;
-    height:  2200px;
+    width: 95vw;
+    height: 2200px;
     background-color: rgb(18, 18, 75);
     bottom: 1000px;
   }
@@ -200,7 +201,7 @@ body {
     height: 40px;
     position: relative;
     left: 15px;
-    bottom: 10490px;
+    bottom: 10475px;
     margin-bottom: 133px;
     z-index: 3;
   }
@@ -228,7 +229,7 @@ body {
     bottom: 8300px;
     margin-left: 25px;
     margin-right: 20px;
-    margin-bottom: 133px;
+    margin-bottom: 130px;
   }
   /* Skills logo */
   #skills1 {
